@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "checked": "2026-11-02",
+  "alerts": [],
+  "doc": {
+    "permitPage": "https://www.doc.govt.nz/parks-and-recreation/things-to-do/hunting/permits-and-licences/hunting-permit/",
+    "conditionsPage": "https://www.doc.govt.nz/parks-and-recreation/things-to-do/hunting/permits-and-licences/permit-conditions/",
+    "applyPage": "https://www.doc.govt.nz/get-an-open-hunting-permit",
+    "summary": "You need a DOC hunting permit to hunt on public conservation land. The open area permit is free. Every hunter in the party needs their own, and it cannot be passed to anyone else. Te Urewera permits come from the Te Urewera Board, not DOC.",
+    "conditions": [
+      {
+        "id": "species",
+        "group": "What you can hunt",
+        "title": "Animals and purpose",
+        "text": "Ground-based, non-commercial hunting of wild deer, pigs, goats, wallabies, chamois and tahr only, within the dates on your permit."
+      },
+      {
+        "id": "area",
+        "group": "What you can hunt",
+        "title": "Permit area only",
+        "text": "Your permit only covers the area named on it."
+      },
+      {
+        "id": "firearms-law",
+        "group": "Firearms",
+        "title": "Firearms law",
+        "text": "Follow the Firearms Safety Code, the Arms Act 1983 and the Arms Regulations 1992."
+      },
+      {
+        "id": "calibre",
+        "group": "Firearms",
+        "title": "Rifles and bows",
+        "text": "Centre-fire rifles of .222 Remington or larger only, or bows and crossbows that meet DOC's minimum standard."
+      },
+      {
+        "id": "banned-firearms",
+        "group": "Firearms",
+        "title": "Not allowed",
+        "text": "No shotguns, rimfire rifles, .17 or .22 Hornet calibres, air rifles, or tracer or incendiary ammunition."
+      },
+      {
+        "id": "darkness",
+        "group": "Night and lights",
+        "title": "No shooting in the dark",
+        "text": "No loaded firearm and no shooting from half an hour after sunset to half an hour before sunrise."
+      },
+      {
+        "id": "lights",
+        "group": "Night and lights",
+        "title": "No lights or night vision",
+        "text": "No hunting with spotlights, torches, night vision, vehicle headlights or any other artificial light, and no thermal, night vision or spotlight attached to a firearm."
+      },
+      {
+        "id": "thermal",
+        "group": "Night and lights",
+        "title": "Hand-held thermal",
+        "text": "A hand-held thermal monocular or binocular may be used to find animals in daylight only."
+      },
+      {
+        "id": "dogs-vehicles",
+        "group": "Dogs and vehicles",
+        "title": "No dogs or vehicles",
+        "text": "No dogs or vehicles for hunting unless the special conditions for the area allow them."
+      },
+      {
+        "id": "no-shoot",
+        "group": "Where you cannot shoot",
+        "title": "Near people",
+        "text": "Do not shoot near huts, tracks, campsites, road ends or public places, within 500 m of a Great Walk hut or track, or in any way that puts people at risk or disturbs them."
+      },
+      {
+        "id": "easements",
+        "group": "Where you cannot shoot",
+        "title": "Easements",
+        "text": "Do not hunt on public easements, or carry weapons across easements over private land where weapons are not allowed."
+      },
+      {
+        "id": "private-land",
+        "group": "Where you cannot shoot",
+        "title": "Private and leased land",
+        "text": "You need the owner's or occupier's permission to cross private or leased land."
+      },
+      {
+        "id": "carcasses",
+        "group": "Carcasses",
+        "title": "Carcasses and offal",
+        "text": "Leave carcasses and offal at least 100 m from huts and campsites, and 50 m from tracks and waterways."
+      },
+      {
+        "id": "carry-permit",
+        "group": "Your permit",
+        "title": "Carry your permit",
+        "text": "Show your permit when a warranted officer, DOC staff member or Police officer asks. Breaking a condition voids the permit and can lead to prosecution. DOC can suspend or cancel permits by public notice."
+      }
+    ],
+    "specialConditionsNote": "Each area can also have its own special conditions, such as dogs, seasons or ballots. These are printed on your permit. Always read them."
+  },
+  "herdsOfSpecialInterest": [
+    {
+      "id": "fiordland-wapiti",
+      "species": "wapiti",
+      "name": "Fiordland wapiti",
+      "place": "Part of Fiordland National Park",
+      "designated": "2026-07-13"
+    },
+    {
+      "id": "kaweka-kaimanawa-sika",
+      "species": "sika",
+      "name": "Sika deer",
+      "place": "Parts of the Kaimanawa and Kaweka Forest Parks",
+      "designated": "2026-07-15"
+    }
+  ],
+  "herdsOfSpecialInterestPage": "https://www.doc.govt.nz/nature/biodiversity/wild-animals-management/herds-of-special-interest/",
+  "gameBirds": {
+    "licenceNote": "You need a Fish & Game game bird hunting licence. On restricted public conservation land you also need a DOC game bird permit from the local DOC office.",
+    "regulationsPage": "https://fishandgame.org.nz/game-bird-hunting-in-new-zealand/hunting-licences-and-regulations/hunting-regulations/general-hunting-regulations/",
+    "seasonLabel": "2027",
+    "status": "pending",
+    "statusNote": "Fish & Game has not released the 2027 season dates yet. They are usually out before opening weekend in May.",
+    "regions": [
+      { "id": "northland", "name": "Northland", "seasons": [] },
+      { "id": "auckland-waikato", "name": "Auckland/Waikato", "seasons": [] },
+      { "id": "eastern", "name": "Eastern", "seasons": [] },
+      { "id": "hawkes-bay", "name": "Hawke's Bay", "seasons": [] },
+      { "id": "taranaki", "name": "Taranaki", "seasons": [] },
+      { "id": "wellington", "name": "Wellington", "seasons": [] },
+      { "id": "nelson-marlborough", "name": "Nelson/Marlborough", "seasons": [] },
+      { "id": "west-coast", "name": "West Coast", "seasons": [] },
+      { "id": "north-canterbury", "name": "North Canterbury", "seasons": [] },
+      { "id": "central-south-island", "name": "Central South Island", "seasons": [] },
+      { "id": "otago", "name": "Otago", "seasons": [] },
+      { "id": "southland", "name": "Southland", "seasons": [] }
+    ]
+  },
+  "firearmsPage": "https://www.firearmssafetyauthority.govt.nz/"
+}
