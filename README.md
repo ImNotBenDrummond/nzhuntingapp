@@ -41,8 +41,11 @@ Add an entry to `alerts` to show a notice on the app's home screen:
 
 - `schemaVersion`: leave at 1. Only changes when the app is updated to read a new layout.
 - `doc.conditions`: the DOC standard permit conditions, in plain English.
-- `herdsOfSpecialInterest`: herds designated by the Minister for Hunting and Fishing.
+- `doc.otherPermits`: the other DOC permit types, in plain English.
+- `herdsOfSpecialInterest`, `herdsOfSpecialInterestNote`: herds designated by the Minister for Hunting and Fishing.
 - `gameBirds.regions`: the 12 Fish & Game regions and their seasons.
+- `firearmsNote`: the short firearms note on the Rules screen.
+- `huntingAreas` (optional): `{ "url": "...", "minimumCount": 50 }` points the map at a different DOC layer if DOC moves it.
 
 ## Checking locally
 

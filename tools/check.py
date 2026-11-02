@@ -38,6 +38,11 @@ for a in data.get("alerts", []):
 for c in data["doc"]["conditions"]:
     need(c.get("id") and c.get("group") and c.get("title") and c.get("text"), f"condition incomplete: {c}")
 
+for c in data["doc"].get("otherPermits", []):
+    need(c.get("id") and c.get("title") and c.get("text"), f"other permit incomplete: {c}")
+need(isinstance(data.get("herdsOfSpecialInterestNote"), str), "herdsOfSpecialInterestNote is missing")
+need(isinstance(data.get("firearmsNote"), str), "firearmsNote is missing")
+
 gb = data["gameBirds"]
 need(gb.get("status") in ("pending", "published"), "gameBirds.status must be pending or published")
 for r in gb["regions"]:

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 1,
+  "dataVersion": 2,
   "checked": "2026-11-02",
   "alerts": [],
   "doc": {
@@ -94,7 +94,34 @@
         "text": "Show your permit when a warranted officer, DOC staff member or Police officer asks. Breaking a condition voids the permit and can lead to prosecution. DOC can suspend or cancel permits by public notice."
       }
     ],
-    "specialConditionsNote": "Each area can also have its own special conditions, such as dogs, seasons or ballots. These are printed on your permit. Always read them."
+    "specialConditionsNote": "Each area can also have its own special conditions, such as dogs, seasons or ballots. These are printed on your permit. Always read them.",
+    "otherPermits": [
+      {
+        "id": "restricted",
+        "title": "Restricted hunting permit",
+        "text": "For restricted areas, or hunting outside the standard conditions (for example with a muzzleloader). Most come from the nearest DOC office. Molesworth, Rakiura/Stewart Island and Queenstown-area restricted blocks can be booked online."
+      },
+      {
+        "id": "small-game",
+        "title": "Small game permit",
+        "text": "For rabbits, hares, Canada geese and feral geese in restricted areas."
+      },
+      {
+        "id": "game-bird",
+        "title": "Game bird permit",
+        "text": "For game birds in restricted areas, from the local DOC office. You also need a Fish & Game game bird licence."
+      },
+      {
+        "id": "possum",
+        "title": "Possum permit",
+        "text": "For possums in restricted areas, from the local DOC office. Traps and cyanide need separate DOC permission."
+      },
+      {
+        "id": "dogs",
+        "title": "Dog permit",
+        "text": "Dogs are not allowed unless the area's special conditions allow them. Where they are, you may need a separate dog permit."
+      }
+    ]
   },
   "herdsOfSpecialInterest": [
     {
@@ -120,19 +147,69 @@
     "status": "pending",
     "statusNote": "Fish & Game has not released the 2027 season dates yet. They are usually out before opening weekend in May.",
     "regions": [
-      { "id": "northland", "name": "Northland", "seasons": [] },
-      { "id": "auckland-waikato", "name": "Auckland/Waikato", "seasons": [] },
-      { "id": "eastern", "name": "Eastern", "seasons": [] },
-      { "id": "hawkes-bay", "name": "Hawke's Bay", "seasons": [] },
-      { "id": "taranaki", "name": "Taranaki", "seasons": [] },
-      { "id": "wellington", "name": "Wellington", "seasons": [] },
-      { "id": "nelson-marlborough", "name": "Nelson/Marlborough", "seasons": [] },
-      { "id": "west-coast", "name": "West Coast", "seasons": [] },
-      { "id": "north-canterbury", "name": "North Canterbury", "seasons": [] },
-      { "id": "central-south-island", "name": "Central South Island", "seasons": [] },
-      { "id": "otago", "name": "Otago", "seasons": [] },
-      { "id": "southland", "name": "Southland", "seasons": [] }
+      {
+        "id": "northland",
+        "name": "Northland",
+        "seasons": []
+      },
+      {
+        "id": "auckland-waikato",
+        "name": "Auckland/Waikato",
+        "seasons": []
+      },
+      {
+        "id": "eastern",
+        "name": "Eastern",
+        "seasons": []
+      },
+      {
+        "id": "hawkes-bay",
+        "name": "Hawke's Bay",
+        "seasons": []
+      },
+      {
+        "id": "taranaki",
+        "name": "Taranaki",
+        "seasons": []
+      },
+      {
+        "id": "wellington",
+        "name": "Wellington",
+        "seasons": []
+      },
+      {
+        "id": "nelson-marlborough",
+        "name": "Nelson/Marlborough",
+        "seasons": []
+      },
+      {
+        "id": "west-coast",
+        "name": "West Coast",
+        "seasons": []
+      },
+      {
+        "id": "north-canterbury",
+        "name": "North Canterbury",
+        "seasons": []
+      },
+      {
+        "id": "central-south-island",
+        "name": "Central South Island",
+        "seasons": []
+      },
+      {
+        "id": "otago",
+        "name": "Otago",
+        "seasons": []
+      },
+      {
+        "id": "southland",
+        "name": "Southland",
+        "seasons": []
+      }
     ]
   },
-  "firearmsPage": "https://www.firearmssafetyauthority.govt.nz/"
+  "firearmsPage": "https://www.firearmssafetyauthority.govt.nz/",
+  "herdsOfSpecialInterestNote": "A Herd of Special Interest is a herd of game animals on public conservation land that the Minister for Hunting and Fishing has designated to be managed for hunting, while protecting conservation values. Management may be handed to the Game Animal Council under a herd management plan. An animal that leaves the herd's area is no longer treated as a game animal there.",
+  "firearmsNote": "To hunt with a firearm you need a current New Zealand firearms licence, or to be under the immediate supervision of someone who has one. Firearms law (the Arms Act 1983) is run by Te Tari Pūreke, the Firearms Safety Authority. Check their website for licences, the firearms registry and safety rules."
 }
